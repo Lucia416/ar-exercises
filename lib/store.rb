@@ -4,4 +4,5 @@ class Store < ActiveRecord::Base
   validates :name, length: { minimun: 3 }
   validates :annual_revenue, numerically: true
   validates :annual_revenue, length: { minimum: 1}
+
 end
